@@ -1,0 +1,62 @@
+* {  
+	margin: 0; padding: 0; }
+body {  
+	background: #fff;
+	font-size: 14px; 
+    color: #686868; 
+    font-family: "宋体";
+    text-align:center;
+    line-height: 22px; }
+img {  
+	border: 0; }
+.kuan960{
+    width:960px;
+    height: 100%;
+    margin: auto;}
+#top{
+    background:url('../images/bg_top.png');
+    width:100%;
+    height: 70px;
+}
+#top #logo{
+	float:left;
+}
+#top #title{
+	text-align:center;
+	float:left;
+	margin:auto;
+	margin-left:450px;
+	margin-top:25px;
+}
+
+#main{
+	width:100%;
+	margin:auto;
+	overflow:hidden;
+	text-align:left;
+}
+#form{
+	background:url('../images/login_bg.png');
+	width:778px;
+	height:576px;
+	margin:auto;
+	margin-left:400px;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+#tip{
+    padding-top: 120px;
+    text-align: center;
+    height: 20px;
+    color: red;
+}
+#user{
+	padding-top:80px;
+}
+#form .input{
+	width:200px;
+	margin:auto;
+	margin-left:450px;
+	line-height:50px;
+}
+
