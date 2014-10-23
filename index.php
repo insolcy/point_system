@@ -53,7 +53,7 @@
     	<div id="site_title"><h1><a href="#">&nbsp;&nbsp;&nbsp;电子书城</a></h1></div>
         <div id="header_right">
             <p>
-	        <a href="index.php"><?php echo $user['user_id']?></a> | <a href="shoppingcart.php">我的购物车</a> | <a href="#" onclick="logout()">退出</a> | <a href="#">我的积分：<?php echo $score?></a></p>
+	        <a href="index.php"><?php echo $user['user_id']?></a> | <a href="shoppingcart.php">我的购物车</a> | <a href="#" onclick="logout()">退出</a> | <a href="#">我的余额：<?php echo $score?></a></p>
 			</p>
 		</div>
         <div class="cleaner"></div>
@@ -112,14 +112,14 @@
                 $('#slider').nivoSlider();
             });
             </script>
-        	<h1>兑换新品</h1>
+        	<h1>新书上架</h1>
             <?php foreach ($products as $product):?>
                 <?php ?>
                 <div class="product_box">
     				<h3><?php echo $product['pro_name']?></h3>
                 	<a href="#"><img src="images/product/<?php echo $product['pro_pic'] . '.jpg';?>" alt="Shoes 1" /></a>
                     <p><?php echo $product['pro_content']?></p>
-                    <p class="product_price">积分 <?php echo $product['pro_score']?></p>
+                    <p class="product_price">价格 <?php echo $product['pro_score']?></p>
                     <a href="#" class="addtocart" onclick="buy(<?php echo $product['pro_id'] . ',' . $user['user_id'];?>);"></a>
                 </div>        	
             <?php endforeach;?>
