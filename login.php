@@ -4,12 +4,12 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/login.css" type="text/css"/>
-        <title>同济积分商城 —— 登陆</title>
+        <title>电子书城 —— 登陆</title>
     </head>
     <body>
         <div id="top">
 	       <div id="title">
-		      <h1>同济大学---积分管理系统--登录</h1>
+		      <h1>电子书城 —— 登录</h1>
 	       </div>
         </div>
         <div id="main">

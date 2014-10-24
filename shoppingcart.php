@@ -43,7 +43,7 @@
             } else if (data == 2) {
                 alert('结算失败，购物车为空');
             } else {
-                alert('部分结算成功，积分不足结算剩余商品');
+                alert('部分结算成功，余额不足结算剩余商品');
             }
             location.reload();
         });
@@ -70,7 +70,7 @@
     	<div id="site_title"><h1><a href="#">&nbsp;&nbsp;&nbsp;电子书城</a></h1></div>
         <div id="header_right">
             <p>
-	        <a href="index.php"><?php echo $user['user_id']?></a> | <a href="shoppingcart.php">我的购物车</a> | <a href="#" onclick="logout()">退出</a> | <a href="#">我的积分：<?php echo $score?></a></p>
+	        <a href="index.php"><?php echo $user['user_id']?></a> | <a href="shoppingcart.php">我的购物车</a> | <a href="#" onclick="logout()">退出</a> | <a href="#">我的余额：<?php echo $score?></a></p>
 			</p>
 		</div>
         <div class="cleaner"></div>
@@ -117,7 +117,7 @@
                 	<th width="220" align="left">图片 </th> 
                 	<th width="180" align="left">描述 </th> 
                   	<th width="100" align="center">商品个数 </th> 
-                   	<th width="60" align="right">积分 </th> 
+                   	<th width="60" align="right">余额 </th> 
                    	<th width="60" align="right">总计 </th>
                     <th width="90"> </th>   
                 </tr>
@@ -140,7 +140,7 @@
                     	<th width="220" align="left">图片 </th> 
                     	<th width="180" align="left">描述 </th> 
                    	  	<th width="100" align="center">商品个数 </th> 
-                    	<th width="60" align="right">积分 </th> 
+                    	<th width="60" align="right">余额 </th> 
                     	<th width="60" align="right">总计 </th> 
                     	<th width="90"> </th>                        
                   </tr>
